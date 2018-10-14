@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-#define int long long
 string rec(int n){
     if(n==1)return "Yes";
     
@@ -8,8 +7,8 @@ string rec(int n){
     
     return rec(n/2);
 }
-int32_t main(){
-    int n;
+int main(){
+    long long n;
     cin>>n;
  
        
